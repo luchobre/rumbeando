@@ -9,6 +9,7 @@ import Image from "next/image";
       src = {patitas}
       width={150}
       height={150}
+      alt='Logo1'
       />
    )
  }

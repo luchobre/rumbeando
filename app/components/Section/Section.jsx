@@ -50,7 +50,7 @@ const Section = () => {
               item,
               index // Iterar sobre paseos y usar index para asignar colores
             ) => (
-                  <div className="p-4 md:w-1/3">
+                  <div className="p-4 md:w-1/3"  key={item.paseo}>
                     <div
                       className={`h-full rounded-xl shadow-card ${cardColors[index]} overflow-hidden`}
                     >

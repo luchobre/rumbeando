@@ -9,6 +9,7 @@ import Image from "next/image";
       src = {logo}
       width={90}
       height={90}
+      alt='Logo2'
       />
    )
  }
